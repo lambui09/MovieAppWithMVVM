@@ -3,11 +3,11 @@ package com.example.movie_app.data.model
 import com.google.gson.annotations.SerializedName
 
 data class MovieResponse(
-    val page: Int,
+    val page: Long,
     @SerializedName("results")
-    val movieList: List<Movie>,
+    val movieList: List<MovieEntity>,
     @SerializedName("total_pages")
-    val totalPages: Int,
+    val totalPages: Long,
     @SerializedName("total_results")
-    val totalResults: Int
+    val totalResults: Long
 )
