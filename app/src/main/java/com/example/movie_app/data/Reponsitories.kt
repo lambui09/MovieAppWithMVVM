@@ -15,7 +15,7 @@ class Reponsitories(private val mMovieDAO : MovieDAO,
         return object : NetworkBoundResource<List<MovieEntity>, Reponsitories>(){
 
         }
-
+f
     }
 
 }
